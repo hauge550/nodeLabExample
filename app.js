@@ -47,13 +47,14 @@ app.get('/petForm', function(req, res){
 });
 
 app.post('/petForm', function(req, res){
-    res.send(req.body.newPet + " String Length: " + tools.stringLength(req.body.newPet));
+    res.send(req.body.newPet + " String Length: " + tools.stringLength(req.body.newPet) + ". Also, this is our second function result " + tools.addingTwo(6, 5));
     console.log(req.body.newPet);
 });
 
 app.get('/', function(req, res){
     res.sendFile('index.html', options);
 });
+
 
 // Wildcard catches requests for non-existent routes or files and responds with a 404 message (or an html page if you want to make a custom one!)
 app.get('*', function(req, res){
