@@ -15,7 +15,7 @@ describe('testing basic functions', function(){
     });
 
     it('5-3 should return 2', function(){
-        expect(subtractTwo(5,3)).toBe(8000);
+        expect(subtractTwo(5,3)).toBe(2);
     });
 });
 
