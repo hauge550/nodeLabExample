@@ -10,8 +10,12 @@ describe('testing basic functions', function(){
     });
 
     //this test should fail.
-    it('this test should fail!', function(){
+    it('this test should (no longer) fail!', function(){
         expect(returnKittens()).toBe("kittens");
+    });
+
+    it('5-3 should return 2', function(){
+        expect(subtractTwo(5,3)).toBe(2);
     });
 });
 

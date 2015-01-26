@@ -29,3 +29,6 @@ var returnKittens = function(){
     return "kittens";
 };
 
+var subtractTwo = function(arg1, arg2){
+    return(arg1-arg2);
+};
