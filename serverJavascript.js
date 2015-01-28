@@ -17,7 +17,7 @@ exports.GPACalculator = function(arg1, arg2, arg3, arg4, arg5, arg6){
     return toReturn;
 };
 
-exports.switchFunction = function(arg1){
+var switchFunction = function(arg1){
     var result = -1;
     switch(arg1){
         case 'A':

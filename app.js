@@ -55,7 +55,7 @@ app.get('/GPA', function(req,res){
     res.sendFile('GPA.html', options);
 });
 
-app.post('/GPA', function(req, res){
+app.post('/GPACalculator', function(req, res){
     res.send("Your GPA is " + tools.GPACalculator(req.body.grade1, req.body.credits1, req.body.grade2, req.body.credits2, req.body.grade3, req.body.credits3));
     console.log(req.body.grade1,  req.body.credits1, req.body.grade2, req.body.credits2, req.body.grade3, req.body.credits3);
 });
