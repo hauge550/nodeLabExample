@@ -46,18 +46,23 @@ var switchFunction = function(arg1){
     switch(arg1){
         case arg1 = "A":
             arg1 = 4.0;
+            break;
 
         case arg1 = "B":
             arg1 = 3.0;
+            break;
 
         case arg1 = "C":
             arg1 = 2.0;
+            break;
 
         case arg1 = "D":
             arg1 = 1.0;
+            break;
 
         case arg1 = "F":
             arg1 = 0.0;
+            break;
     }
     return arg1;
 }
