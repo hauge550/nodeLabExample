@@ -32,3 +32,32 @@ var returnKittens = function(){
 var subtractTwo = function(arg1, arg2){
     return(arg1-arg2);
 };
+
+var GPACalculator = function(arg1, arg2, arg3, arg4, arg5, arg6){
+    var gradeOne = switchFunction(arg1);
+    var gradeTwo = switchFunction(arg3);
+    var gradeThree = switchFunction(arg5);
+
+    var toReturn = ((gradeOne * arg2) + (gradeTwo * arg4) + (gradeThree * arg6))/(arg2 + arg4 + arg6);
+    return toReturn;
+}
+
+var switchFunction = function(arg1){
+    switch(x){
+        case arg1 = "A":
+            arg1 = 4.0;
+
+        case arg1 = "B":
+            arg1 = 3.0;
+
+        case arg1 = "C":
+            arg1 = 2.0;
+
+        case arg1 = "D":
+            arg1 = 1.0;
+
+        case arg1 = "F":
+            arg1 = 0.0;
+    }
+    return arg1;
+}
