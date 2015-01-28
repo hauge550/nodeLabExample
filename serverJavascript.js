@@ -41,18 +41,3 @@ var switchFunction = function(arg1){
     }
     //   return(result);
 };
-exports.ifFunction = function(arg1){
-    if (arg1=='A'){
-        return 4.0;
-    }else if (arg1=='B'){
-        return 3.0;
-    }else if (arg1=='C'){
-        return 2.0;
-    }else if (arg1=='D'){
-        return 1.0;
-    }else if (arg1=='F'){
-        return 0.0;
-    }else{
-        return -1;
-    }
-};
