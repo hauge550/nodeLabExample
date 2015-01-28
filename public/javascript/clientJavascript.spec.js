@@ -17,5 +17,9 @@ describe('testing basic functions', function(){
     it('5-3 should return 2', function(){
         expect(subtractTwo(5,3)).toBe(2);
     });
+
+    it('A for a 4 credit class, B for a 3 credit class, and C for a 4 credit class', function(){
+       expect(GPACalculator("A", 4, "B", 3, "C", 4).toBe(3));
+    });
 });
 
