@@ -43,7 +43,7 @@ var GPACalculator = function(arg1, arg2, arg3, arg4, arg5, arg6){
 }
 
 var switchFunction = function(arg1){
-    switch(x){
+    switch(arg1){
         case arg1 = "A":
             arg1 = 4.0;
 
